@@ -15,7 +15,7 @@ const ChatList = () => {
                 <p className="list-group-item mb-0" key={index}>
                     <link 
                     style={{display:"block", margin: "1rem 0" }}
-                    to= {`/ChatList/${index}`}
+                    to= {`/people/${index}`}
                     key={index}>
 
                     {EachChat}
